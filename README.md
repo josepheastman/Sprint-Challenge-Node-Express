@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+- First I learned about Express routing, to be able to perform different CRUD operations and link them to a seperate URL per operation.
+- Secondly  I learned about Express Middleware, as well as the difference between built-in middleware, third party middleware, and custom middleware.
+
 - [ ] Describe Middleware?
+
+- Middleware are functions that give you the ability to make changes to the req and res, execute the code that you put inside them and are able to be reused.
 
 - [ ] Describe a Resource?
 
+- Within the scope of RESTful Web Api, everything is a resource.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+- An API returns status codes to the clients to let them know if a request is successful or not.
+
 - [ ] How can we partition our application into sub-applications?
+
+- We can use route handlers to seperate and structure our application by type, feature or as a hybrid as well as seperate middleware into seperate folders and files.
 
 ## Project Setup
 
